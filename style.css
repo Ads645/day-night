@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #75e0ce;
+}
+button {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: cadetblue;
+    border: none;
+}
+button:focus { outline: none;}
+/*classes*/
+.sun {
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+    
+}
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+.day {
+    background-color: #37d8e6;
+}
+.moon {
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2;
+}
+.moon:hover {
+    border: 20px solid white ;
+}
+
+.night {
+    background-color: #2c3e50;
+ }
+ 
